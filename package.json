@@ -1,0 +1,46 @@
+{
+  "name": "nodevox",
+  "version": "0.0.0",
+  "description": "Simple upvote/downvote site to play with web components",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bushibytes/nodevox.git"
+  },
+  "author": "Alexandre Rimthong",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/bushibytes/nodevox/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "4.x",
+    "jade": "^1.7.0",
+    "method-override": "^2.2.0",
+    "morgan": "^1.3.2"
+  },
+  "homepage": "https://github.com/bushibytes/nodevox",
+  "devDependencies": {
+    "coffeelint": "^1.6.0",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.11.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.1",
+    "grunt-karma": "^0.9.0",
+    "karma": "^0.12.23",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-jasmine": "^0.1.5",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "phantomjs": "^1.9.9"
+  }
+}
